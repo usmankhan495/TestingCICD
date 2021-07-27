@@ -6,7 +6,7 @@ import 'react-native';
 import React from 'react';
 import App from '../App';
 import {fireEvent, render, waitFor} from '@testing-library/react-native';
-
+// upsdate test
 it('Renders Message', async () => {
   const {getByTestId, getByText, queryByTestId, toJSON} = render(<App />);
 
