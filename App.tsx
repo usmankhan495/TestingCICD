@@ -39,10 +39,8 @@ const App = () => {
           <Text style={styles.messageText} testID="printed-message">
             {message}
           </Text>
-          <Text>
-            Updated test
-          </Text>
         )}
+        <Text>Updated test</Text>
       </View>
     </SafeAreaView>
   );
